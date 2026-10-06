@@ -1,0 +1,15 @@
+{
+  "name": "zomp-tools",
+  "description": "General-purpose Claude Code plugins from Zomp",
+  "owner": {
+    "name": "Zomp"
+  },
+  "plugins": [
+    {
+      "name": "wt-tab-status",
+      "source": "./plugins/wt-tab-status",
+      "description": "Show which Windows Terminal tabs have Claude working (progress ring) and which finished while you were away (bell), even on renamed tabs and split panes",
+      "version": "0.1.0"
+    }
+  ]
+}
