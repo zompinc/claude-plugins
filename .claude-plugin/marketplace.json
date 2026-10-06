@@ -1,6 +1,6 @@
 {
   "name": "zomp-tools",
-  "description": "General-purpose Claude Code plugins from Zomp",
+  "description": "Zomp's Claude Code plugins",
   "owner": {
     "name": "Zomp"
   },
@@ -10,6 +10,15 @@
       "source": "./plugins/wt-tab-status",
       "description": "Show which Windows Terminal tabs have Claude working (progress ring) and which finished while you were away (bell), even on renamed tabs and split panes",
       "version": "0.1.0"
+    },
+    {
+      "name": "sync-method-generator",
+      "source": {
+        "source": "git-subdir",
+        "url": "zompinc/sync-method-generator",
+        "path": "plugins/sync-method-generator"
+      },
+      "description": "Generate the sync half of a C# sync/async method pair with Zomp.SyncMethodGenerator instead of hand-maintaining both"
     }
   ]
 }
