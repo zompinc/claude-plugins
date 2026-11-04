@@ -1,0 +1,12 @@
+{
+  "name": "wt-resume",
+  "version": "0.1.0",
+  "description": "Resume each Windows Terminal pane's Claude session automatically after Terminal or Windows restarts",
+  "author": {
+    "name": "Zomp"
+  },
+  "homepage": "https://github.com/zompinc/claude-plugins",
+  "license": "MIT",
+  "keywords": ["windows-terminal", "terminal", "resume", "hooks"],
+  "hooks": "./hooks/hooks.json"
+}

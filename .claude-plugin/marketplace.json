@@ -12,6 +12,12 @@
       "version": "0.1.0"
     },
     {
+      "name": "wt-resume",
+      "source": "./plugins/wt-resume",
+      "description": "Resume each Windows Terminal pane's Claude session automatically after Terminal or Windows restarts",
+      "version": "0.1.0"
+    },
+    {
       "name": "sync-method-generator",
       "source": {
         "source": "git-subdir",
