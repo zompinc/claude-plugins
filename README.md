@@ -14,6 +14,7 @@ claude plugin install <plugin>@zomp-tools
 | Plugin                                                                                                              | What it does                                                                                                   |
 | ------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
 | [wt-tab-status](plugins/wt-tab-status)                                                                              | Progress ring on a Windows Terminal tab while Claude works, bell icon when it finishes while you are elsewhere |
+| [wt-resume](plugins/wt-resume)                                                                                      | Resume each Windows Terminal pane's Claude session after Terminal or Windows restarts                          |
 | [sync-method-generator](https://github.com/zompinc/sync-method-generator/tree/master/plugins/sync-method-generator) | Generate the sync half of a C# sync/async method pair with Zomp.SyncMethodGenerator                            |
 
 ## Development
